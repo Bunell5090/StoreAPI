@@ -24,6 +24,9 @@ gem "turbo-rails"
 # Rake Seed back
 gem "seed_dump"
 
+# Rack-Cors Connect Frontend to Backend
+gem "rack-cors"
+
 # Hotwire's modest JavaScript framework [https://stimulus.hotwired.dev]
 gem "stimulus-rails"
 
