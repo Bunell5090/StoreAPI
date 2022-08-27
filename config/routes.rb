@@ -6,4 +6,6 @@ Rails.application.routes.draw do
   resource :store
   resources :users
   resourses :customers
+  resourses :sessions, only: :create
+  
 end
