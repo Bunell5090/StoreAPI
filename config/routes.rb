@@ -5,7 +5,7 @@ Rails.application.routes.draw do
   # root "articles#index"
   resource :store
   resources :users
-  resourses :customers
-  resourses :sessions, only: :create
+  resources :customers
+  resources :sessions, only: :create
   
 end
